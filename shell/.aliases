@@ -1,0 +1,2 @@
+# Sublime
+alias sublime='open -a "/Applications/Sublime Text.app" "`pwd`"'
