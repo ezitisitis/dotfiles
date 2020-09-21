@@ -20,3 +20,4 @@ brew ls --versions composer || brew install composer
 
 echo "Install nvm"
 brew ls --versions nvm || brew install nvm
+mkdir ~/.nvm
