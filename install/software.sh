@@ -8,3 +8,4 @@ brew ls libreoffice --versions --cask || brew cask install libreoffice
 brew ls firefox-developer-edition --versions --cask || brew cask install firefox-developer-edition
 brew ls spotify --versions --cask || brew cask install spotify
 brew ls mactracker --versions --cask || brew cask install mactracker
+brew ls discord --versions --cask || brew cask install discord
