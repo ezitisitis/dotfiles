@@ -15,3 +15,10 @@ if dein#load_state('~/.dotfiles/nvim/dein')
     call dein#end()
     call dein#save_state()
 endif
+
+filetype plugin indent on
+syntax enable
+
+if dein#check_install()
+    call dein#install()
+endif
