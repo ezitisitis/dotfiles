@@ -1,3 +1,6 @@
 # NeoVim
 nvim/dein
 nvim/configs/codestats.vim
+
+# Zsh
+shell/configs/codestats
