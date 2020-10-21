@@ -6,6 +6,21 @@ This repository was created to store all my terminal configuration somewhere
 If You found this usefull, You can fork and modify all that stuff for Your
 personal use.
 
+## Tools used
+
+Here are some links to repositories which are used.
+
+### NeoVim
+
+1. [NeoVim]()
+2. [dein]()
+3. [dein-ui]()
+4. [Airline]()
+5. [CodeStats]()
+6. [Gruvbox]()
+7. [NerdTree]()
+8. [Coc]()
+
 ## Structure
 
 Short description of directory structure for this repository.
