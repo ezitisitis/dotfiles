@@ -2,5 +2,8 @@
 nvim/dein
 nvim/configs/codestats.vim
 
+# IDEA
+.idea
+
 # Zsh
 shell/configs/codestats
