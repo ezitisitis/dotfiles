@@ -58,8 +58,8 @@ but knowing myself that will not be fast :D
 3.1. [ ] Brew installation;
 3.2. [ ] Docker setup together with Traefik (latest);
 3.3. [ ] Valet installation;
-3.4. [ ] Local Mysql installation;
-3.5. [ ] Local Postgres installation;
+3.4. [ ] Mysql installation through Docker;
+3.5. [ ] Postgres installation through Docker;
 3.6. [ ] Other software (non environment, just some tools which I use on daily
 base);
 4. [ ] OhMyZsh install;
