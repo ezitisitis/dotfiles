@@ -7,3 +7,4 @@ source install/dnsmasq.sh
 source install/neovim.sh
 source install/links.sh
 source install/software.sh
+source install/git.sh
