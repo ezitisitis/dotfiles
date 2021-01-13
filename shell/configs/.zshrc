@@ -87,15 +87,22 @@ source $HOME/.dotfiles/shell/configs/codestats
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# PATHS
+# Composer
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+# Mysql installed throug brew
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
-# PATH to custom scripts
-export PATH="$PATH:$HOME/.bin"
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+# RVM (Ruby Version Manager)
 export PATH="$PATH:$HOME/.rvm/bin"
+# Zplug
 export ZPLUG_HOME="$HOME/.zplug"
+# NVM (Node Version Manager)
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
+# Custom scripts
+export PATH="$PATH:$HOME/.bin"
+# Other
+export PATH="/usr/local/sbin:$PATH"
