@@ -15,6 +15,6 @@ brew ls --versions neovim || brew install neovim
 echo "Install composer (https://getcomposer.org/)"
 brew ls --versions composer || brew install composer
 
-echo "Install nvm"
-brew ls --versions nvm || brew install nvm
-mkdir ~/.nvm
+echo "Install N (Node version manager)"
+brew ls --versions n || brew install n
+sudo mkdir -p /usr/local/n && sudo chown -R $(whoami) /usr/local/n/
