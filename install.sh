@@ -10,3 +10,4 @@ source install/software.sh
 source install/git.sh
 source install/directories.sh
 source install/traefik.sh
+source install/mysql.sh
