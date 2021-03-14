@@ -12,3 +12,4 @@ brew ls discord --versions --cask || brew install --cask discord
 brew ls slack --versions --cask || brew install --cask slack
 brew ls jetbrains-toolbox --versions --cask || brew install --cask jetbrains-toolbox
 brew ls fork --versions --cask || brew install --cask fork
+brew ls transmission --versions --cask || brew install --cask transmission
