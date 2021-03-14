@@ -10,3 +10,5 @@ brew ls spotify --versions --cask || brew install --cask spotify
 brew ls mactracker --versions --cask || brew install --cask mactracker
 brew ls discord --versions --cask || brew install --cask discord
 brew ls slack --versions --cask || brew install --cask slack
+brew ls jetbrains-toolbox --versions --cask || brew install --cask jetbrains-toolbox
+brew ls fork --versions --cask || brew install --cask fork
