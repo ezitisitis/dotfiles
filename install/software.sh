@@ -9,6 +9,7 @@ casks=(
   postman
   libreoffice
   spotify
+  sketch
   mactracker
   discord
   slack
