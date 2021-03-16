@@ -60,7 +60,6 @@ plugins=(
   laravel
 )
 source $ZSH/oh-my-zsh.sh
-source $(brew --prefix nvm)/nvm.sh
 source $HOME/.dotfiles/shell/.aliases
 source $HOME/.dotfiles/shell/.docker.sh
 # source $HOME/.dotfiles/shell/.traefik.sh
