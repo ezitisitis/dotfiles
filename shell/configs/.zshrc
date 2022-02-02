@@ -50,7 +50,7 @@ HIST_STAMPS="dd.mm.yyyy"
 plugins=(
   git
   brew
-  osx
+  macos
   npm
   docker
   colorize
@@ -98,6 +98,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export ZPLUG_HOME="$HOME/.zplug"
 # Custom scripts
 export PATH="$PATH:$HOME/.bin"
+export PATH="$PATH:$(go env GOPATH)/bin"
 # Other
 export PATH="/usr/local/sbin:$PATH"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
